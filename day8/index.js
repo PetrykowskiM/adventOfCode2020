@@ -1,6 +1,3 @@
-const { exec } = require("child_process");
-const { disconnect } = require("process");
-
 const input = require("../parser.js")(__dirname + "/input.txt");
 
 function execInstructionsWithLoopPrevention(code, withStack) {
